@@ -1,0 +1,22 @@
+# Root
+.DS_Store
+*.log
+.env
+.env.*
+
+# Frontend
+social-demand-predictor-frontend/node_modules/
+social-demand-predictor-frontend/dist/
+social-demand-predictor-frontend/.env
+social-demand-predictor-frontend/.env.local
+social-demand-predictor-frontend/.env.production
+
+# Backend
+social-demand-predictor-backend-fixed/target/
+social-demand-predictor-backend-fixed/.idea/
+social-demand-predictor-backend-fixed/.settings/
+
+# AIML
+social-demand-predictor-AIML-with-dataset/**/__pycache__/
+social-demand-predictor-AIML-with-dataset/**/*.pyc
+social-demand-predictor-AIML-with-dataset/**/.venv/
